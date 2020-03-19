@@ -1,11 +1,11 @@
 # OS-Scheduling-Algorithms
 
-Determine the number of page faults, turnaround time, average waiting time, performance gain compared to FCFS for the following CPU schedule algorithms
-  • FCFS
-  • SJF (shortest job first)
-  • Round-Robin Scheduling
-and performance gain such as for SJF is defined as:
-PFgain = ((FCFSturn_around_time - SJFturn_around_time)/SJFturn_around_time) × 100
+Determine the number of page faults, turnaround time, average waiting time, performance gain compared to FCFS for the following CPU schedule algorithms<br/>
+  • FCFS<br/>
+  • SJF (shortest job first)<br/>
+  • Round-Robin Scheduling<br/>
+and performance gain such as for SJF is defined as:<br/>
+PFgain = ((FCFSturn_around_time - SJFturn_around_time)/SJFturn_around_time) × 100<br/>
 
 For each of the processes, the number of frames allocated is one-third of the number of the page of the process. For example, OS allocates three frames for a process with nine pages. Use ceiling function to calculate the number of frames for a process. In the long-term scheduling, the OS uses SSTF which takes about 50ns to serve a request for a block of data or information. For simplicity, the request for each process for the page fault is served sequentially from the waiting queue. The block size is 512 bytes which are the same as the sector size and page size. Assume that the computer has sufficient memory to serve all the listed process and context switching takes 0ns. OS takes 20ns to move 1024 bytes from the kernel space to the user space and update page table. Further, the page table contains valid and invalid bits for the pages. The OS uses the LRU scheme for page replacement, and block a process (in the waiting queue) until it (kernel) serves page fault. Also, assume that the memory address is 32-bits (4GB) where the last 9-bit (512 bytes) is used for internal frame address (or displacement), and rest 23-bit is used for frame number.
 
