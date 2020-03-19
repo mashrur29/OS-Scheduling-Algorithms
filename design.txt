@@ -1,0 +1,42 @@
+Submitted by:
+------------
+Name: Mashrur Rashik
+ROll: 29
+
+
+Makefile usage:
+---------------
+make: creates the .class file and executes the Main.java file to output the result
+make clean: removes the .class files
+
+
+This assignment implements three CPU schedule algorithms
+1) FCFS
+2) SJF (Shortest job first)
+3) Round-Robin Scheduling
+
+There are mainly 4 java class
+
+1) Main.java:
+------------
+This java class inputs from the input file in.txt and outputs the result by calling other three java classes which implements the algorithms
+
+
+2) FirstComeFirstServe.java:
+---------------------------
+This java class implements the first come first serve algorithm
+
+
+3) ShortestJobFirst.java:
+------------------------
+This java class implements shortest job first algorithm
+
+
+4) RoundRobin.java:
+-------------------
+This java class implements Round-Robin Scheduling algorithm
+
+Besides, these 4 class i have also included;
+input file: in.txt
+and other helper class for different algorithms
+
