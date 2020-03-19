@@ -13,16 +13,10 @@ For each of the processes, the number of frames allocated is one-third of the nu
 
 # Input
 
-In the first line, the input contains number of process, time quanta (ns) and next several lines where
-each of the lines contains process id, number of page,arrival time (ns), and a series of memory references
-which are as following 1,11,12,134,345,450,920,5000,4123,2345,20,569,18,74,3004,3234, and so on. The
-real test data may contains more than 500 processes.
+In the first line, the input contains number of process, time quanta (ns) and next several lines where each of the lines contains process id, number of page,arrival time (ns), and a series of memory references which are as following 1,11,12,134,345,450,920,5000,4123,2345,20,569,18,74,3004,3234, and so on. The real test data may contains more than 500 processes.
 
 # Output
-The first line contains scheduling algorithm (such as FCFS), the average waiting time (two digits decimal),
-average turn around time (two digits decimal), the total number of page faults (Integer), number of page
-faults (Integer) for each process, and performance gain (two digits decimal) for each of the scheduling
-algorithm compared to FCFS. Consider time unit as ns.
+The first line contains scheduling algorithm (such as FCFS), the average waiting time (two digits decimal), average turn around time (two digits decimal), the total number of page faults (Integer), number of page faults (Integer) for each process, and performance gain (two digits decimal) for each of the scheduling algorithm compared to FCFS. Consider time unit as ns.
 
 # Sample Input
 5, 10 <br/> 
