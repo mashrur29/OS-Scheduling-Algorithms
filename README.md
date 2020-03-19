@@ -33,6 +33,7 @@ algorithm compared to FCFS. Consider time unit as ns.
 # Sample Output
 FCFS 23.50, 134.45, 35, 7, 13, 15, 0.00 <br/> 
 SJF 18.50, 100.34, 30, 8, 12, 10, 33.99 <br/> 
-RRS 20.00, 120.00, 32, 7, 13, 12, 12.04
-**Alert: Space between the numbers.
+RRS 20.00, 120.00, 32, 7, 13, 12, 12.04 <br/>
+
+**Alert: Space between the numbers.<br/>
 Note: the sample input and output may not represent the correct calculation.
